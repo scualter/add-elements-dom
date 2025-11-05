@@ -1,12 +1,10 @@
-/* General */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
     background-color: #fafafa;
 }
-
-/* Botón agregar */
+*/
 button {
     padding: 8px 15px;
     font-size: 14px;
@@ -22,7 +20,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* === CUADRO PRINCIPAL QUE ENVUELVE LA LISTA === */
 #lista {
     list-style: none;
     padding: 20px;
@@ -34,7 +31,6 @@ button:hover {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* === CADA ELEMENTO DENTRO DE SU PROPIO CUADRO === */
 #lista li {
     display: flex;
     justify-content: space-between;
@@ -48,7 +44,6 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Botón eliminar dentro del cuadro */
 #lista li button.eliminar {
     background: #ff4d4d;
     border: none;
